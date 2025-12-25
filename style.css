@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f3f7fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #ffffff;
+  width: 500px;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0f2a44;
+  letter-spacing: 3px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 2px solid #2a7fff;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+.form button {
+  padding: 10px 18px;
+  border: none;
+  background: #a9d8ff;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  font-size: 18px;
+  color: #0f2a44;
+}
+
+.actions i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.edit {
+  color: #4caf50;
+}
+
+.delete {
+  color: #f44336;
+}
+
+.clear {
+  text-align: center;
+  color: #f06c6c;
+}
