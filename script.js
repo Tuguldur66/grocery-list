@@ -39,10 +39,10 @@ function addItem(text) {
   });
 
   li.querySelector(".edit").addEventListener("click", () => {
-    input.value = li.querySelector("span").textContent;
+    input.value = li.firstElementChild.textContent;
     submitBtn.textContent = "Edit";
     isEditing = true;
-    editElement = li.querySelector("span");
+    editElement = li.firstElementChild;
   });
 }
 
